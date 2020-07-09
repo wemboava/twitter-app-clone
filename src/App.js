@@ -9,7 +9,7 @@ import Routes from "./routes";
 const App = () => {
   return (
     <NavigationContainer>
-      <StatusBar barStyle="dark-content" />
+      <StatusBar barStyle="light-content" backgroundColor="#312e38" />
       <View style={{ flex: 1 }}>
         <Routes />
       </View>
